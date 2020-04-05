@@ -1,0 +1,31 @@
+# WebTeknolojiProje
+                                                                                           Abdulsamet Ýnanan
+                                                                                              B191210102
+                                                                          https://github.com/AbdulsametInanan/WebTeknolojiProje
+      
+PROJEMÝN ÝÇERÝÐÝ: 1-) ANASAYFA KISMI: * Anasayfam kýsmýný diðer tüm içeriklere ulaþabilecek þekilde düzenleyeceðim. * Ayný zamanda anasayfamda her bir içerikle ilgili kýsa bilgi vererek, kolayca istenilen yere ulaþýlabilen nitelikte düzenleyeceðim.
+
+ 2-) HAKKINDA KISMI:   * Hakkýmda kýsmýný kendi kiþisel hobilerimi, özelliklerimi, etkinliklerimi vb. þeyleri link ve resimlerle destekleyerek bir giriþ sayfasý niteliðinde düzenleyeceðim.
+   
+   3-) CV ve ÖZGEÇMÝÞ KISMI:   * Özgeçmiþ ve CV kýsmýný yani kendi becerilerimi ve eðitim hayatýmý içeren bilgileri özgeçmiþ için (table); CV için (div) yardýmýyla hazýrlayacaðým.
+                               * Bu kýsýma þahsi fotoðrafýmý yerleþtireceðim.
+   
+   4-) ÞEHRÝM KISMI:     * Kendi memleketim ile ilgili kayda deðer bilgiler vererek, bu bilgileri görsellerle beraber destekleyeceðim.
+                         * Sayfada 4 veya 4'ten daha fazla slider kullanarak bu sliderda yer alan resimlere týklanýldýðýnda ilgili içeriðe ait ulaþýlabilen bir link koyacaðým.
+                           
+   5-) MÝRASIMIZ KISMI:   * Mirasýmýz kýsmýnda þehrime ait kültürel miras niteliðinde birkaç önemli eserden bahsedeceðim.
+   
+   6-) LOGÝN SAYFASI KISMI:     * Kullanýcýdan sayfaya girerken bir kullanýcý adý ve þifre isteyeceðim.
+                                * Kullanýcýnýn bilgileri doðru girmesi sonucunda ekrana "Sayfaya Hoþgeldiniz." isimli bir mesaj vereceðim.
+                                * Kullanýcýnýn bilgileri yanlýþ girmesi sonucunda kullanýcýyý login sayfasýna tekrar döndürecek düzenlemeyi yapacaðým.
+                                * Bu kýsýmdaki kullanýcý adý ve þifre kýsmýnýn boþ geçilmemesi ve kullanýcý adýnýn mail adresi olmasýný gerektiren düzenlemeyi yapacaðým.
+   
+   7-) ÝLETÝÞÝM KISMI:     * Form elemanlarýný içeren bir iletiþim sayfasý oluþturacaðým.
+                           * Ýletiþim formundaki gerekli kontrol iþlemlerini JavaScript yardýmýyla denetleyeceðim.
+                           * Formu , temizle ve gönder butonlarýný içerecek þekilde hazýrlayacaðým.
+                           * Gönderilen form bilgilerini baþka bir sayfada görüntüleyebilecek þekilde hazýrlayacaðým.
+
+   PROJEMÝN ÝÞLEYÝÞÝ: * Projemin sürecinde ilk olarak; sayfalarýn html dosyalarýný yazarak ayný zamanda gerekli içerik ve dökümaný toplayacaðým.
+                      * Sayfamýn tasarým ile ilgili kodlarýný yazacaðým. 
+                      * Ýletiþim ve diðer kýsýmlardaki JavaScript ve php dosyalarýný tamamlayacaðým.
+                      * Sayfamdaki eksiklikleri veya eklenmesini uygun gördüðüm þeyleri ekleyerek sayfaya son þeklini vereceðim.
