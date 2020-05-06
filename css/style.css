@@ -1,0 +1,70 @@
+/* GENERAL SECTİONS ( Genel ayarlar ) */
+
+h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+p{
+    color: black;
+    font-weight: 500;
+}
+
+
+
+/* HOME SECTİONS ( Giriş ayarları ) */
+
+body{
+    font-family: 'Jost', sans-serif;
+    font-style: italic;
+}
+
+.navbar{
+    border-bottom: 2px solid  rgba(0, 255, 242, 0.801);
+}
+.navbar .navbar-brand{
+    color:  rgba(0, 255, 242, 0.801);
+    font-size: 30px;
+}
+.bg-dark {
+    background-color: black !important;     
+}
+.nav-link{
+    color: white !important;
+    text-transform: initial;
+    transition: color 0.5s ease;
+}
+.nav-link:hover{
+    color:  rgba(0, 255, 242, 0.801) !important;
+}
+
+#headerSection{
+    background: url("../images/resim1.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, .5);
+}
+#headerSection .row{
+    height: 100vh;
+}
+#headerSection h1{
+    color: white;
+}
+.btn-outline-primary{
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+
+/* FEATURE SECTİONS ( Features kısmı ayarları ) */
+
+#features .fas {
+    font-size: 30px;
+}
+.feature-ust:hover{
+    color: aqua;
+}
