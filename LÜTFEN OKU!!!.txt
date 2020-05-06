@@ -1,0 +1,4 @@
+Hocam birinci yapmýþ olduðum "firs commit" adlý commit'in css 
+dosyasýnýn içinde ayarlarýný yaptýðým {style.css} bulunduðu için
+ve sizin de direkt olarak görmemeniz ihtimaline karþýn birinci 
+commitimi tekrar ediyorum. Teþekkürler :)
