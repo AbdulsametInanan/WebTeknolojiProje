@@ -1,3 +1,46 @@
+
+/* CV SECTİONS ( CV ayarları ) */
+
+#cvSection{
+    background: url("../images/resim3.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+}
+#cvSection .row{
+    height: 100vh;
+}
+#cvSection h1{
+    color: white;
+    background-color: firebrick;
+}
+
+
+/* TABLE SECTİONS ( Tablo ayarları ) */
+
+.tablo{
+
+    border: 2px solid black;
+    border-radius: 5;
+    background-color: paleturquoise;
+    height: 500px;
+    width: 1000px;
+    margin: 40px auto 50px auto;
+      
+}
+
+.tablo td{
+    border: 2px solid black;
+}
+.tablo h{
+    font-size: 20px;
+    font-weight: 1500px;
+    color: darkred;
+}
+.tablo p{
+    font-size: 13px;
+}
+
+
 /* GENERAL SECTİONS ( Genel ayarlar ) */
 
 h3{
@@ -10,12 +53,12 @@ p{
 }
 
 
-
 /* HOME SECTİONS ( Giriş ayarları ) */
 
 body{
     font-family: 'Jost', sans-serif;
     font-style: italic;
+    text-align: center;
 }
 
 .navbar{
@@ -37,34 +80,6 @@ body{
     color:  rgba(0, 255, 242, 0.801) !important;
 }
 
-#headerSection{
-    background: url("../images/resim1.jpg") no-repeat center center fixed;
-    background-size: cover;
-    height: 100vh;
-}
 .overlay{
     background-color: rgba(0, 0, 0, .5);
-}
-#headerSection .row{
-    height: 100vh;
-}
-#headerSection h1{
-    color: white;
-}
-.btn-outline-primary{
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 0;
-    border: 1px solid black;
-    cursor: pointer;
-}
-
-
-/* FEATURE SECTİONS ( Features kısmı ayarları ) */
-
-#features .fas {
-    font-size: 30px;
-}
-.feature-ust:hover{
-    color: aqua;
 }

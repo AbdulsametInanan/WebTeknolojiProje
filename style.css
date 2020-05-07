@@ -10,7 +10,6 @@ p{
 }
 
 
-
 /* HOME SECTİONS ( Giriş ayarları ) */
 
 body{
@@ -67,4 +66,12 @@ body{
 }
 .feature-ust:hover{
     color: aqua;
+}
+
+
+/* HİSTORY SECTİONS ( Hakkımda vb. kısım ayarları ) */
+
+#aboutmeSection h2{
+    border-left: 5px solid aqua !important;
+    padding-left: 30px;
 }

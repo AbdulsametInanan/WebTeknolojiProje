@@ -1,4 +1,10 @@
-Hocam birinci yapmış olduğum "firs commit" adlı commit'in css 
-dosyasının içinde ayarlarını yaptığım {style.css} bulunduğu için
-ve sizin de direkt olarak görmemeniz ihtimaline karşın birinci 
-commitimi tekrar ediyorum. Teşekkürler :)
+Hocam birinci yapmï¿½ï¿½ olduï¿½um "firs commit" adlï¿½ commit'in css 
+dosyasï¿½nï¿½n iï¿½inde ayarlarï¿½nï¿½ yaptï¿½ï¿½ï¿½m {style.css} bulunduï¿½u iï¿½in
+ve sizin de direkt olarak gï¿½rmemeniz ihtimaline karï¿½ï¿½n birinci 
+commitimi tekrar ediyorum. Teï¿½ekkï¿½rler :)
+
+
+
+Hocam ayrÄ±ca sitemi klasÃ¶rÃ¼n iÃ§erisinde [Ã–rn:index.html] aÃ§Ä±nca arkadaki resimler gÃ¶zÃ¼kmezken
+koda saÄŸ tÄ±klayÄ±p siteyi aÃ§Ä±nca gÃ¶zÃ¼kmekte. Bunun nedenini Ã§ok aradÄ±m fakat bulmuÅŸ deÄŸilim.
+Kod satÄ±rÄ± iÃ§erisinde aÃ§arsanÄ±z siteyi sevinirim :)
