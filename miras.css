@@ -1,0 +1,71 @@
+
+#mirasSection{
+    background: url("../images/resim5.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+}
+#mirasSection .row{
+    height: 100vh;
+}
+#mirasSection h1{
+    color: white;
+}
+
+
+
+/* GENERAL SECTİONS ( Genel ayarlar ) */
+
+h2{
+    font-size: 35px;
+    text-align: center;
+    font-weight: 700px;
+}
+
+h3{
+    font-size: 25px;
+    font-weight: 600px;
+    color: rgb(0, 255, 234); 
+}
+h4{
+    font-size: 25px;
+    font-weight: 700px;
+    color: darkred;
+    text-align: center;
+}
+
+p{
+    color: black;
+    font-weight: 500;
+}
+
+
+/* HOME SECTİONS ( Giriş ayarları ) */
+
+body{
+    font-family: 'Jost', sans-serif;
+    font-style: italic;
+    text-align: center;
+}
+
+.navbar{
+    border-bottom: 2px solid  rgba(0, 255, 242, 0.801);
+}
+.navbar .navbar-brand{
+    color:  rgba(0, 255, 242, 0.801);
+    font-size: 30px;
+}
+.bg-dark {
+    background-color: black !important;     
+}
+.nav-link{
+    color: white !important;
+    text-transform: initial;
+    transition: color 0.5s ease;
+}
+.nav-link:hover{
+    color:  rgba(0, 255, 242, 0.801) !important;
+}
+
+.overlay{
+    background-color: rgba(0, 0, 0, .5);
+}

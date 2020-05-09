@@ -10,12 +10,147 @@
         <link rel="stylesheet" href="css/bootstrap.css">
 <!-- Font Awesome CSS-->       
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
-<!-- CV CSS -->        
-        
-       
 <!-- Google Fonts CSS -->     
         <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@1,500&display=swap" rel="stylesheet">
 
+        <style type="text/css">
+           
+
+           
+           h3{
+              font-size: 20px;
+              font-weight: 600;
+}
+           p{
+              color: black;
+              font-weight: 500;
+          }
+
+          body{
+              font-family: 'Jost', sans-serif;
+              font-style: italic;
+              text-align: center;
+          }
+
+          .navbar{
+              border-bottom: 2px solid black;
+          }
+          .navbar .navbar-brand{
+              color:  rgba(0, 255, 242, 0.801);
+              font-size: 30px;
+          }
+          .nav-link{
+              color: white !important;
+              text-transform: initial;
+              transition: color 0.5 ease;
+          }
+          .nav-link:hover{
+              color:  rgba(0, 255, 242, 0.801) !important;
+          }
+          .bg-dark{
+              background-color: black !important;
+          }
+
+          /* SLİDER SECTİONS */ 
+          
+          .slider-sec{
+              width: 806px;
+              height: 406px;
+              border: 3px solid black;
+              margin: 50px auto;
+              margin-top: 150px;
+              position: relative;
+              overflow: hidden;
+          } 
+
+          .slider-sec ul{
+              list-style: none;
+              padding: 0px;
+              margin: 0px;
+          }
+          .slider-sec ul li{
+              position: absolute;
+          }
+          .slider-sec ul li:nth-of-type(1){
+              left: 0px;
+          }
+          .slider-sec ul li:nth-of-type(2){
+              left: 803px;
+          }
+          .slider-sec ul li:nth-of-type(3){
+              left: 1606px;
+          }
+          .slider-sec ul li:nth-of-type(4){
+              left: 2409px;
+          }
+          .slider-sec ul li:nth-of-type(5){
+              left: 3212px;
+          }
+          .slider-sec ul li:nth-of-type(6){
+              left: 4015px;
+          }
+          
+          .slider{
+              position: absolute;
+              left: 0px;
+              
+              animation-name: slider;
+              animation-duration: 20s;
+              animation-delay: .5s;
+              animation-direction: alternate;
+              animation-iteration-count: infinite;
+          }
+
+          .slider:hover{
+              animation-play-state: paused;
+          }
+          
+          @keyframes slider{
+               0%{left: 0px;}
+               10%{left: -803px;}
+               20%{left: -803px;}
+
+               30%{left: -1606px;}
+               40%{left: -1606px;}
+
+               50%{left: -2409px;}
+               60%{left: -2409px;}
+
+               70%{left: -3212px;}
+               80%{left: -3212px;}
+
+               90%{left: -4015px;}
+               100%{left: -4015px;}                   
+          }
+          
+          #bilgi {
+              text-align: center;
+              border: 1px solid black;
+          }
+          #bilgi .row{
+              border: 1px solid black;
+          }
+          .bilgi2 p{
+              font-size: 15px;
+              font-weight: 500px;
+          }
+           
+          #sehrimSection{
+              background: url("../images/resim5.jpg") no-repeat center center fixed;
+              background-size: cover;
+              height: 100vh;
+          }
+          #sehrimSection .row{
+              height: 100vh;
+          }
+          #sehrimSection h1{
+              color: white;
+          }
+
+         
+
+
+        </style>
     </head>
     <body>
 
@@ -24,7 +159,7 @@
                 <button class="navbar-toggler" data-toggle="collapse" data-target="#nvbCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <a target="_target" href="#index.html" class="navbar-brand" title="Newşehir">NewŞehir</a>
+                <a href="index.html" class="navbar-brand" title="Newşehir">NewŞehir</a>
                 <div class="Collapse navbar-collapse" id="nvbCollapse">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
@@ -32,30 +167,128 @@
                         </li>
                        &nbsp;&nbsp;&nbsp;
                        <li class="nav-item">  
-                          <a href="#" class="nav-link"> Öz Geçmişim <br>&nbsp;&nbsp;&nbsp;( My CV )</a>
+                          <a href="cv.html" class="nav-link"> Öz Geçmişim <br>&nbsp;&nbsp;&nbsp;( My CV )</a>
                        </li>
                        &nbsp;&nbsp;&nbsp;
                        <li class="nav-item">
-                          <a href="#" class="nav-link">  &nbsp; Şehrim <br> ( My City )</a>
+                          <a href="sehrim.html" class="nav-link">  &nbsp; Şehrim <br> ( My City )</a>
                        </li>
                        &nbsp;&nbsp;&nbsp;
                        <li class="nav-item">
-                          <a href="#" class="nav-link">  &nbsp;&nbsp;&nbsp; Mirasımız <br> ( Our Heritage )</a>
+                          <a href="miras.html" class="nav-link">  &nbsp;&nbsp;&nbsp; Mirasımız <br> ( Our Heritage )</a>
                        </li>
                        &nbsp;&nbsp;&nbsp;
                        <li class="nav-item">
-                          <a href="#" class="nav-link">  &nbsp; İletişim <br> ( Contact )</a>
+                          <a href="iletisim.html" class="nav-link">  &nbsp; İletişim <br> ( Contact )</a>
                        </li>
                     </ul>
                 </div>
               </div>
         </nav> 
 
-        <!--  HEADER SECTİON 2 -->
-
-        <header id="headerSection2">
-            <div class="overlay"></div>
+        <!--  CİTY SECTİONS -->
+        
+        <header id="sehrimSection">
+            <div class="overlay">
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col my-auto">
+                            <div class="slider-sec">
+                                <div class="slider">
+                                     <ul>
+                                         <li><a href="#"><img src="images/slider1.jpg"></a></li>
+                                         <li><a href="#"><img src="images/slider2.jpg"></a></li>
+                                         <li><a href="#"><img src="images/slider3.jpg"></a></li>
+                                         <li><a href="#"><img src="images/slider4.jpg"></a></li>
+                                         <li><a href="#"><img src="images/slider5.jpg"></a></li>
+                                         <li><a href="#"><img src="images/slider6.jpg"></a></li>
+                                     </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </header>
+
+
+
+
+
+
+
+       
+        
+     <div class="bilgi2">
+        <section id="bilgi">
+          <div class="container" class="bilgi2"> 
+            <div class="row mt-5">
+                <div class="col-md-6"><img src="images/bilgi.jpg"></div>
+                <div class="col-md-6">
+                    <br><h3>~~ Newşehir'i Tanıyalım ~~</h3><br>
+                    <p>Nevşehir ilimiz, Türkiye'nin İç Anadolu Bölgesinde yer alan bir ildir. Nevşehir, Muşkara adlı bir köy iken,
+                        şehir halini almaya başlamasından sonra, 18. yüzyılda Osmanlıca "Yeni Kent" anlamındaki bugünkü adını alıyor. 
+                        6429 sayılı kanun ile Nevşehir 20 Temmuz 1954 tarihinde il haline getiriliyor.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6"><br>
+                    <p>2016 yılında TÜİK verilerine göre merkez ilçeyle beraber 8 İlçe, 23 belediye, bu belediyelerde 
+                    122 mahalle ve ayrıca 153 köy vardır. • Nevşehir (Merkez) <br> • Acıgöl <br> • Avanos <br>
+                    • Derinkuyu <br> • Gülşehir <br> • Hacıbektaş <br> • Kozaklı <br> • Ürgüp </p>
+                </div>
+                <div class="col-md-6"><img src="images/bilgi2.jpg"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-6"><img src="images/bilgi3.jpg"></div>
+                <div class="col-md-6">
+                    <table border="1" width="500" height="225" style="text-align: left;">
+                        <tr width="250">
+                            <td height="25" style="color: maroon;">► Coğrafi Bölge</td>
+                            <td>İç Anadolu</td>
+                        </tr>
+                        <tr width="250">
+                            <td height="25" style="color: maroon;">▒ Yüzölçümü</td>
+                            <td>5,467 km² (2.110 mil²)</td>
+                        </tr>
+                        <tr width="250">
+                            <td height="65" style="color: maroon;">► Nüfus <br> <p style="text-align: center; color: maroon;">• Toplam<br>• Kır<br>• Şehir</p></td>
+                            <td><br><p>286.250<br>115.172<br>171.078</p></td>
+                        </tr>
+                        <tr width="250">
+                            <td height="55" style="color: maroon;">▒ İl plaka kodu <br> ▒ İl Alan kodu</td>
+                            <td>50 <br>384</td>
+                        </tr>
+                        <tr width="250">
+                            <td height="55" style="color: maroon;">► Resmi Site </td>
+                            <td>
+                                <a href="http://nevsehir.bel.tr/" target="_blank" title="Nevşehir Belediyesi" style="color:blueviolet;">Nevşehir Belediyesi</a>
+                                <br><a href="http://nevsehir.gov.tr/" target="_blank" title="Nevşehir Valiliği" style="color: blueviolet;">Nevşehir Valiliği</a>
+                            </td>
+                        </tr>
+
+
+                    </table>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">e</div>
+                <div class="col-md-6"><img src="images/bilgi4.jpg"></div>
+            </div>
+          </div>
+
+        </section>
+    </div> 
+
+
+
+
+
+
+
+
+
+
 
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>        
