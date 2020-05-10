@@ -26,7 +26,7 @@
              </tr>
              <tr>
                  <td><b>Sitem nasıl dostum?</td>
-                 <td><?php echo($_POST["option1"]);?></td>
+                 <td><?php echo($_POST["sellist2"]);?></td>
              </tr>
              <td><b>Yorumunuz:</td>
                  <td><?php echo($_POST["yorum"]);?></td>
