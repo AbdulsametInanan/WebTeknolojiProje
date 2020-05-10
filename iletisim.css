@@ -1,15 +1,14 @@
-
 /* CV SECTİONS ( CV ayarları ) */
 
-#cvSection{
-    background: url("../images/resim3.jpg") no-repeat center center fixed;
+#iletisimSection{
+    background: url("../images/resim6.jpg") no-repeat center center fixed;
     background-size: cover;
-    height: 100vh;
+    height: 150vh;
 }
-#cvSection .row{
-    height: 100vh;
+#iletisimSection .row{
+    height: 170vh;
 }
-#cvSection h1{
+#iletisimSection h1{
     color: white;
     background-color: firebrick;
 }
@@ -22,10 +21,11 @@
     border: 2px solid black;
     border-radius: 5;
     background-color: paleturquoise;
-    height: 500px;
-    width: 1000px;
-    margin: 40px auto 50px auto;
-      
+    height: 525px;
+    width: 500px;
+    margin-top: 80px;
+    margin-left: 600px;   
+    margin-bottom: 450px; 
 }
 
 .tablo td{
@@ -41,16 +41,6 @@
 }
 
 
-/* GENERAL SECTİONS ( Genel ayarlar ) */
-
-h3{
-    font-size: 25px;
-    font-weight: 600;
-}
-p{
-    color: black;
-    font-weight: 500;
-}
 
 
 /* HOME SECTİONS ( Giriş ayarları ) */
@@ -59,6 +49,7 @@ body{
     font-family: 'Jost', sans-serif;
     font-style: italic;
     text-align: center;
+    color: black;
 }
 
 .navbar{
@@ -84,13 +75,6 @@ body{
     background-color: rgba(0, 0, 0, .5);
 }
 
-.container{
-    width: 96%;
-    max-width: 100%;
-    margin: 0px auto;
-}
-
-
 
 /* MEDİA SECTİONS ( Responsive vb.ayarlar ) */
 
@@ -101,38 +85,26 @@ body{
 }
 
 @media screen and (max-width: 1200px){
-    #cvSection p{
+    #iletisimSection p{
         line-height: 20px;
         }
-    #cvSection .tablo{
-        width: 100%;
-        float: left;
-        margin-right: 15px;
-    }
-    
 
     #nvbCollapse{
         font-size: 12px;
     }
 }
 @media screen and (max-width: 992px){
-    #cvSection {
-        width: 50%;
-        float: left;
-        margin-right: 15px;
+    .display-4{
+        font-size: 48px;
 }
 }
 @media screen and (max-width: 768px){
-    #cvSection {
-        width: 50%;
-        float: left;
-        margin-right: 15px;
+    .display-4{
+        font-size: 32px;
 }
 }
 @media screen and (max-width: 576px){
-    #cvSection {
-        width: 50%;
-        float: left;
-        margin-right: 15px;
+    .display-4{
+        font-size: 24px;
 }
 }

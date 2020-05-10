@@ -1,6 +1,22 @@
 <!DOCTYPE html>
 <html lang="tr">
     <head>
+<table></table>
+        <title>Bir Başkadır Benim Memleketim</title>
+        <!-- Meta tags -->     
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CSS-->      
+                <link rel="stylesheet" href="css/bootstrap.min.css">
+                <link rel="stylesheet" href="css/bootstrap.css">
+        <!-- Font Awesome CSS-->       
+                <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
+        <!-- Miras CSS -->        
+                <link rel="stylesheet" href="iletisim.css">
+        <!-- Google Fonts CSS -->     
+                <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@1,500&display=swap" rel="stylesheet">
+        
+
         <script>
             function formkontrol()
             {
@@ -23,73 +39,133 @@
             document.iletisimForm.reset();
             }
         </script>
+
+  
     </head>
     <body>
-        <form name ="iletisimForm" id="form" action="iletisimBilgiler.php" method="POST">
-					  
-            <div class="form-group">
-                <label for="usr"><b>Ad:</b></label>
-                <input type="text" class="form-control" id="ad" name="username" onkeyup="formkontrol()">
-                <label for="usr"><b>Soyad:</b></label>
-                <input type="text" class="form-control" id="soyad" name="usersurname" onkeyup="formkontrol()">
-                <label for="text"><b>E-mail:</b></label>
-                <input type="text" class="form-control" id="email" name="email" onkeyup="formkontrol()">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top " >
+            <div class="container">
+              <button class="navbar-toggler" data-toggle="collapse" data-target="#nvbCollapse">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <a href="index.html" class="navbar-brand" title="Newşehir">NewŞehir</a>
+              <div class="Collapse navbar-collapse" id="nvbCollapse">
+                  <ul class="navbar-nav ml-auto">
+                      <table border="1" style="border-color: aqua;";>
+                          <tr>
+                              <td><li class="nav-item">
+                               <a href="login.html" class="nav-link"> GİRİŞ <br> ( LOGIN )</a>
+                                </li></td>
+                          </tr>
+                      </table>
+                      &nbsp;&nbsp;&nbsp;
+                      <li class="nav-item">
+                        <a href="index.html" class="nav-link">  &nbsp; Hakkımda <br> ( About Me )</a>
+                      </li>
+                     &nbsp;&nbsp;&nbsp;
+                     <li class="nav-item">  
+                        <a href="cv.html" class="nav-link"> Öz Geçmişim <br>&nbsp;&nbsp;&nbsp;( My CV )</a>
+                     </li>
+                     &nbsp;&nbsp;&nbsp;
+                     <li class="nav-item">
+                        <a href="sehrim.html" class="nav-link">  &nbsp; Şehrim <br> ( My City )</a>
+                     </li>
+                     &nbsp;&nbsp;&nbsp;
+                     <li class="nav-item">
+                        <a href="miras.html" class="nav-link">  &nbsp;&nbsp;&nbsp; Mirasımız <br> ( Our Heritage )</a>
+                     </li>
+                     &nbsp;&nbsp;&nbsp;
+                     <li class="nav-item">
+                        <a href="iletisim.html" class="nav-link">  &nbsp; İletişim <br> ( Contact )</a>
+                     </li>
+                  </ul>
+              </div>
             </div>
+      </nav> 
+
+      <!--  CONTACT SECTİON -->
+
+      <header id="iletisimSection">
+          <div class="overlay">
+              <div class="container">
+                  <div class="row text-center">
+                      <div class="col my-auto">
+                        <div class="tablo">
+                            <form name ="iletisimForm" id="form" action="iletisimBilgiler.php" method="POST">			  
+                                <div class="form-group">
+                                    <label for="usr"><b>Adınız:</b></label>
+                                    <input type="text" class="form-control" id="ad" name="username" onkeyup="formkontrol()">
+                                    <label for="usr"><b>Soyadınız:</b></label>
+                                    <input type="text" class="form-control" id="soyad" name="usersurname" onkeyup="formkontrol()">
+                                    <label for="text"><b>E-mailiniz:</b></label>
+                                    <input type="text" class="form-control" id="email" name="email" onkeyup="formkontrol()">
+                                </div>
+                            
+                                <div class="form-group">
+                                    <label for="usr"><b>Cinsiyetiniz:</b></label><br>
+                                  <div class="form-check-inline">
+                                    <label class="form-check-label" for="radio1">
+                                    <input type="radio" class="form-check-input" id="radio1" name="optradio" value="Kadın" checked>Kadın
+                                    </label>
+                                  </div>
+                                  <div class="form-check-inline">
+                                    <label class="form-check-label" for="radio2">
+                                    <input type="radio" class="form-check-input" id="radio1" name="optradio" value="Erkek">Erkek
+                                    </label>
+                                  </div>
+                                </div>
+                              
+                                <div class="form-group">
+                                    <label for="sel1"><b>Yaşadığınız şehri seçin:</b></label>
+                                    <select class="form-control" id="sel1" name="sellist1">
+                                        <option>İstanbul</option>
+                                        <option>Ankara</option>
+                                        <option>İzmir</option>
+                                        <option>Bursa</option>
+                                        <option>Antalya</option>
+                                        <option>Sakarya</option>
+                                        <option>Diğer iller...</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="sel1"><b>Sizce sitem nasıl?</b>
+                                    <p style="color: darkred;">(Lütfen insaflı davranın ☻)</p></label>
+                                    <select class="form-control" id="sel1" name="sellist1">
+                                        <option>Efsane</option>
+                                        <option>Çok iyi</option>
+                                        <option>İyi</option>
+                                        <option>İdare eder</option>
+                                        <option>Kötü</option>
+                                        <option>Çok kötü</option>
+                                        <option>Berbat</option>
+                                    </select>
+                                </div>
+                                
+                                <div class="form-group">
+                                   <br><br>
+                                    <label for="comment" style="color:yellow;"><b>Yorumunuz:</b>
+                                    <br><p style="color: aquamarine;">▒<i> Yorumlarınız bizim için çok değerlidir dostlarım...</i></p>
+                                    </label>
+                                    <textarea class="form-control" name ="yorum" id="yorum" rows="3" onkeyup="formkontrol()"></textarea>
+                                </div>
+                                
+                                <p style="color: aquamarine;">▒<i> Lütfen "Gönder" butonunun aktif hale gelmesi için tüm alanları doldurunuz...</i></p>
+                                <div class="butonlar">
+                               <input type="button" id="submit" name="submit" value="Reset" class="btn btn-info" onclick="checkForm2();"/>
+                               <button type="submit" class="btn btn-info" id="gonder" disabled>Gönder</button>
+                               </div>
+                            </form>
+                         </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </header>
+
         
-            <div class="form-group">
-                <label for="usr"><b>Cinsiyet:</b></label><br>
-            <div class="form-check-inline">
-                <label class="form-check-label" for="radio1">
-                <input type="radio" class="form-check-input" id="radio1" name="optradio" value="Kadın" checked>Kadın
-                </label>
-            </div>
-            <div class="form-check-inline">
-                <label class="form-check-label" for="radio2">
-                <input type="radio" class="form-check-input" id="radio1" name="optradio" value="Erkek">Erkek
-                </label>
-            </div>
-            </div>
-          
-            <div class="form-group">
-                <label for="usr"><b>Site Hakkındaki Önerileriniz:</b></label>
-            <div class="form-check">
-                <label class="form-check-label" for="check1">
-                <input type="checkbox" class="form-check-input" id="check1" name="option1" value="Tasarım geliştirilmeli." checked>Tasarım geliştirilmeli.
-                </label>
-            </div>
-            <div class="form-check">
-                <label class="form-check-label" for="check2">
-                <input type="checkbox" class="form-check-input" id="check2" name="option2" value="İçerik zenginleştirilmeli.">İçerik zenginleştirilmeli.
-                </label>
-            </div>
-            <div class="form-check">
-                <label class="form-check-label" for="check2">
-                <input type="checkbox" class="form-check-input" id="check3" name="option3" value="Yeni sayfalar eklenmeli.">Yeni sayfalar eklenmeli.
-                </label>
-            </div>
-            </div>
-          
-            <div class="form-group">
-                <label for="sel1"><b>Yaşadığınız şehri seçin:</b></label>
-                <select class="form-control" id="sel1" name="sellist1">
-                    <option>Sakarya</option>
-                    <option>İstanbul</option>
-                    <option>Ankara</option>
-                    <option>İzmir</option>
-                </select>
-            </div>
-          
-            <div class="form-group">
-                <label for="comment"><b>Yorum:</b></label>
-                <textarea class="form-control" name ="yorum" id="yorum" rows="3" onkeyup="formkontrol()"></textarea>
-            </div>
-            
-            <p>*<i>Gönder butonunun aktif hale gelmesi için tüm alanları doldurunuz.</i></p>
-            
-            <div class="butonlar">
-                <input type="button" id="submit" name="submit" value="Reset" class="btn btn-info" onclick="checkForm2();"/>
-                <button type="submit" class="btn btn-info" id="gonder" disabled>Gönder</button>
-            </div>
-        </form>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>        
+        <script src="js/bootstrap.min.js"></script> 
     </body>
 </html>

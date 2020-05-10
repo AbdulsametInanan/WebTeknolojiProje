@@ -75,3 +75,31 @@ body{
     border-left: 5px solid aqua !important;
     padding-left: 30px;
 }
+
+
+/* MEDİA SECTİONS ( Responsive vb.ayarlar ) */
+
+@media screen and (max-width: 1200px){
+    #aboutmeSection p{
+        line-height: 20px;
+        }
+
+    #nvbCollapse{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 992px){
+    .display-4{
+        font-size: 48px;
+}
+}
+@media screen and (max-width: 768px){
+    .display-4{
+        font-size: 32px;
+}
+}
+@media screen and (max-width: 576px){
+    .display-4{
+        font-size: 24px;
+}
+}

@@ -125,18 +125,16 @@
           
           #bilgi {
               text-align: center;
-              border: 1px solid black;
+              margin-bottom: 50px;
           }
-          #bilgi .row{
-              border: 1px solid black;
-          }
+
           .bilgi2 p{
               font-size: 15px;
               font-weight: 500px;
           }
            
           #sehrimSection{
-              background: url("../images/resim5.jpg") no-repeat center center fixed;
+              background: url("../images/resim2.jpg") no-repeat center center fixed;
               background-size: cover;
               height: 100vh;
           }
@@ -146,10 +144,40 @@
           #sehrimSection h1{
               color: white;
           }
+          /* MEDİA SECTİONS ( Responsive vb.ayarlar ) */
 
-         
+          .container{
+    width: 96%;
+    max-width: 100%;
+    margin: 0px auto;
+}
 
 
+@media screen and (max-width: 1200px){
+    #sehrimSection p{
+        line-height: 20px;
+        }
+
+    #nvbCollapse{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 992px){
+    .display-4{
+        font-size: 48px;
+}
+}
+@media screen and (max-width: 768px){
+    .display-4{
+        font-size: 32px;
+}
+}
+@media screen and (max-width: 576px){
+    .display-4{
+        font-size: 24px;
+}
+}
+           
         </style>
     </head>
     <body>
@@ -162,6 +190,14 @@
                 <a href="index.html" class="navbar-brand" title="Newşehir">NewŞehir</a>
                 <div class="Collapse navbar-collapse" id="nvbCollapse">
                     <ul class="navbar-nav ml-auto">
+                        <table border="1" style="border-color: aqua;";>
+                            <tr>
+                                <td><li class="nav-item">
+                                 <a href="login.html" class="nav-link">  GİRİŞ <br> ( LOGIN )</a>
+                                  </li></td>
+                            </tr>
+                        </table>
+                        &nbsp;&nbsp;&nbsp;
                         <li class="nav-item">
                           <a href="index.html" class="nav-link">  &nbsp; Hakkımda <br> ( About Me )</a>
                         </li>
@@ -196,12 +232,12 @@
                             <div class="slider-sec">
                                 <div class="slider">
                                      <ul>
-                                         <li><a href="#"><img src="images/slider1.jpg"></a></li>
-                                         <li><a href="#"><img src="images/slider2.jpg"></a></li>
-                                         <li><a href="#"><img src="images/slider3.jpg"></a></li>
-                                         <li><a href="#"><img src="images/slider4.jpg"></a></li>
-                                         <li><a href="#"><img src="images/slider5.jpg"></a></li>
-                                         <li><a href="#"><img src="images/slider6.jpg"></a></li>
+                                         <li><a target="_blank" href="https://tr.wikipedia.org/wiki/Nev%C5%9Fehir"><img src="images/slider1.jpg"></a></li>
+                                         <li><a target="_blank" href="https://tr.wikipedia.org/wiki/Kapadokya"><img src="images/slider2.jpg"></a></li>
+                                         <li><a target="_blank" href="https://www.youtube.com/watch?v=qMeclHNPYJ0"><img src="images/slider3.jpg"></a></li>
+                                         <li><a target="_blank" href="https://www.youtube.com/watch?v=6uMhLfehkTw"><img src="images/slider4.jpg"></a></li>
+                                         <li><a target="_blank" href="https://www.gezilesiyer.com/nevsehirde-gezip-gorulecek-yerler.html"><img src="images/slider5.jpg"></a></li>
+                                         <li><a target="_blank" href="https://tr.wikipedia.org/wiki/%C3%87%C3%B6mlek%C3%A7ilik"><img src="images/slider6.jpg"></a></li>
                                      </ul>
                                 </div>
                             </div>
@@ -212,37 +248,32 @@
         </header>
 
 
-
-
-
-
-
        
-        
+        <hr color="yellow"><hr color="black"><hr color="aqua">
      <div class="bilgi2">
         <section id="bilgi">
           <div class="container" class="bilgi2"> 
             <div class="row mt-5">
-                <div class="col-md-6"><img src="images/bilgi.jpg"></div>
+                <div class="col-md-6"><img src="images/bilgi.jpg"></div><hr color="black">
                 <div class="col-md-6">
                     <br><h3>~~ Newşehir'i Tanıyalım ~~</h3><br>
-                    <p>Nevşehir ilimiz, Türkiye'nin İç Anadolu Bölgesinde yer alan bir ildir. Nevşehir, Muşkara adlı bir köy iken,
+                    <p><br>Nevşehir ilimiz, Türkiye'nin İç Anadolu Bölgesinde yer alan bir ildir. Nevşehir, Muşkara adlı bir köy iken,
                         şehir halini almaya başlamasından sonra, 18. yüzyılda Osmanlıca "Yeni Kent" anlamındaki bugünkü adını alıyor. 
                         6429 sayılı kanun ile Nevşehir 20 Temmuz 1954 tarihinde il haline getiriliyor.</p>
                 </div>
-            </div>
+            </div><br><hr color="black">
             <div class="row">
-                <div class="col-md-6"><br>
+                <div class="col-md-6">
                     <p>2016 yılında TÜİK verilerine göre merkez ilçeyle beraber 8 İlçe, 23 belediye, bu belediyelerde 
                     122 mahalle ve ayrıca 153 köy vardır. • Nevşehir (Merkez) <br> • Acıgöl <br> • Avanos <br>
                     • Derinkuyu <br> • Gülşehir <br> • Hacıbektaş <br> • Kozaklı <br> • Ürgüp </p>
                 </div>
                 <div class="col-md-6"><img src="images/bilgi2.jpg"></div>
-            </div>
+            </div><br><hr color="black">
             <div class="row">
                 <div class="col-md-6"><img src="images/bilgi3.jpg"></div>
                 <div class="col-md-6">
-                    <table border="1" width="500" height="225" style="text-align: left;">
+                    <table width="500" height="225" style="text-align: left;">
                         <tr width="250">
                             <td height="25" style="color: maroon;">► Coğrafi Bölge</td>
                             <td>İç Anadolu</td>
@@ -266,29 +297,31 @@
                                 <br><a href="http://nevsehir.gov.tr/" target="_blank" title="Nevşehir Valiliği" style="color: blueviolet;">Nevşehir Valiliği</a>
                             </td>
                         </tr>
-
-
                     </table>
                 </div>
-            </div>
+            </div><br><hr color="black">
             <div class="row">
-                <div class="col-md-6">e</div>
+                <div class="col-md-6">
+                    <h3><br>Nevşehir'deki Gezilecek Turistik Mekanlar</h3>
+                    <br><p>
+                        • Peribacaları
+                        • Göreme Kasabası ve Göreme Açık Hava Müzesi<br>
+                        • Hacıbektaş-ı Veli Türbesi ve Müzesi<br>
+                        • Ihlara Vadisi<br>
+                        • Nevşehir Yeraltı Şehirleri<br>
+                        • Nevşehir Kalesi<br>
+                        • Nevşehir Kapadokya Vadileri<br>
+                        • Damat İbrahim Paşa Külliyesi<br>
+                        • Nevşehir Müzeleri<br>
+                        vb...
+                    </p>
+                </div>
                 <div class="col-md-6"><img src="images/bilgi4.jpg"></div>
             </div>
-          </div>
+          </div><hr color="aqua"><hr color="black"><hr color="yellow">
 
         </section>
     </div> 
-
-
-
-
-
-
-
-
-
-
 
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>        
